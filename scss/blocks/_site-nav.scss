@@ -1,0 +1,39 @@
+.site-nav__cards {
+    @include list-unstyled;
+    display: flex;
+}
+.site-nav__item {
+    &:not(:last-child){
+        margin-right: 43px;
+    }
+    text-transform: uppercase;
+}
+.site-nav__item-link {
+    &:hover{
+        color: #5FB4A2;
+    }
+    display: inline-block;
+    text-decoration: none;
+    color: #33323D;
+}
+@include breakpoint-down(400px){
+    .site-nav{
+        display: none;
+    }
+    .site-nav__cards{
+        display: block;
+        padding: 40px 0;
+        width: 223px;
+        background-color: $grayish-blue;
+    }
+    .site-nav__item{
+        &:not(:last-child){
+            margin: 0;
+            margin-bottom: 32px;
+        }
+        text-align: center;
+    }
+    .site-nav__item-link{
+        color: #fff;
+    }
+}   

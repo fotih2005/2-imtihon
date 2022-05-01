@@ -1,0 +1,39 @@
+.header-section__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 9px;
+}
+.header-section__nav-wrapper{
+    display: flex;
+}
+.header-section__hamburger {
+    display: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+@include breakpoint-down(400px){
+    .header-section__nav-wrapper{
+        position: relative;
+    }
+    .header-section__hamburger{
+        display: block;
+    }
+    .header-section__hamburger--active
+    .header-section__nav{
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 30px;    
+    }
+    .header-section__nav-cards{
+        display: block;
+        padding: 40px 0;
+        width: 223px;   
+        background-color: $grayish-blue;
+    }
+
+}

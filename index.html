@@ -1,13 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dars-9</title>
-  <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2-imtihon</title>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <section class="header-section">
+      <article class="header-section__wrapper container">
+        <a class="site-logo" href="index.html">
+          <img class="site-logo__img" src="./imges/logo.svg" alt="site-logo" width="60" height="32" />
+        </a>
+        <div class="header-section__nav-wrapper">
+          <nav class="site-nav header-section__nav">
+            <ul class="site-nav__cards header-section__nav-cards">
+              <li class="site-nav__item">
+                <a class="site-nav__item-link" href="#" target="_blank">home</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__item-link" href="#" target="_blank">portfolio</a>
+              </li>
+              <li class="site-nav__item">
+                <a class="site-nav__item-link" href="form.html" target="_blank">contact me</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header-section__hamburger">
+            <svg width="24" height="13" viewBox="0 0 24 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="24" height="1" fill="#33323D" />
+              <rect y="6" width="24" height="1" fill="#33323D" />
+              <rect y="12" width="24" height="1" fill="#33323D" />
+            </svg>
+          </button>
+        </div>
+      </article>
+    </section>
+  </header>
+  <main class="site-main">
+    <h1 class="visually-hidden">Lorem ipsum dolor sit amet.</h1>
+    <section class="hero-section">
+      <article class="hero-section__wrapper container">
+        <picture>
+          <source srcset="" media="(max-width: 500px)" />
+          <source srcset="" media="(max-width: 500px)" />
+          <source srcset="./imges/hero-bg-mobile.webp" media="(max-width: 500px)" />
+          <source srcset="./imges/hero-bg-mobile.jpg" media="(max-width: 500px)" />
+          <source srcset="./imges/hero-bg-teblet.webp" media="(max-width: 800px)" />
+          <source srcset="./imges/hero-bg-teblet.jpg" media="(max-width: 800px)" />
+          <source srcset="./imges/hero-bg.webp" width="1110" height="500" />
+          <img class="header-section__bg-image" src="./imges/hero-bg.jpg" alt="" width="1110" height="600" />
+        </picture>
+        <div class="hero-section__content-wrapper">
+          <h2 class="hero-section__title">
+            Hey, I’m Alex Spencer and I love building beautiful websites
+          </h2>
+          <a class="primary-link" href="#idabout-section"><svg class="primary-link__svg" width="18" height="14"
+              viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="Group 3">
+                <path id="Path 6" d="M1 9L9 13L17 9" stroke="#5FB4A2" />
+                <path id="Path 6 Copy" opacity="0.5" d="M1 5L9 9L17 5" stroke="#5FB4A2" />
+                <path id="Path 6 Copy 2" opacity="0.25" d="M1 1L9 5L17 1" stroke="#5FB4A2" />
+              </g>
+            </svg>
+            <p class="primary-link__text">about me</p>
+          </a>
+        </div>
+      </article>
+    </section>
+    <section class="about-section">
+      <article class="about-section__wrapper container">
+        <picture>
+          <source srcset="./imges/about-mobile.webp" media="(max-width: 500px)" />
+          <source srcset="./imges/about-mobile.jpg" media="(max-width: 500px)" />
+          <source srcset="./imges/tablet-about.webp" media="(max-width: 800px)" />
+          <source srcset="./imges/tablet-about.jpg" media="(max-width: 800px)" />
+          <source srcset="./imges/about.webp" width="445" height="520" />
+          <img class="about-section__img" src="./imges/about.jpg" alt="" width="445" height="520" />
+        </picture>
+        <div class="about-section__content-wrapper">
+          <h2 class="about-section__title">About Me</h2>
+          <p class="about-section__text">I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run or cycling. I’d love you to check out my work.</p>
+          <a class="about-section__link" href="#">go to portfolio </a>
+        </div>
+      </article>
+    </section>
+    <section class="project-section">
+      <article class="project-section__wrapper container">
+        <h2 class="project-section__title">Interested in doing a project together?</h2>
+        <hr class="project-section__line">
+        <a class="project-section__link" href="form.html">contact me</a>
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <section class="footer-section">
+      <article class="footer-section__wrapper container">
+        <a class="site-logo" href="index.html">
+          <img class="site-logo__img" src="./imges/footer-logo.svg" alt="site-logo" width="60" height="32" />
+        </a>
+        <nav class="footer-section__nav">
+          <ul class="footer-section__nav-cards">
+            <li class="footer-section__nav-item">
+              <a class="footer-section__nav-item-link" href="#">home</a>
+            </li>
+            <li class="footer-section__nav-item">
+              <a class="footer-section__nav-item-link" href="#">portfolio</a>
+            </li>
+            <li class="footer-section__nav-item">
+              <a class="footer-section__nav-item-link" href="form.html">contact me</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="footer-section__cards">
+          <li class="footer-section__item"><a class="footer-section__item-link" href="#"><svg width="25" height="24" viewBox="0 0 25 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.5 0C5.59375 0 0 5.50948 0 12.3045C0 17.742 3.58125 22.3531 8.54688 23.9788C9.17188 24.0946 9.40104 23.7137 9.40104 23.3871C9.40104 23.095 9.39062 22.3207 9.38542 21.295C5.90833 22.0369 5.175 19.6442 5.175 19.6442C4.60625 18.2241 3.78437 17.8443 3.78437 17.8443C2.65208 17.0815 3.87188 17.0971 3.87188 17.0971C5.12708 17.1827 5.78646 18.3649 5.78646 18.3649C6.90104 20.2463 8.7125 19.7027 9.42708 19.3886C9.53958 18.5924 9.86146 18.0509 10.2188 17.743C7.44271 17.4352 4.525 16.3771 4.525 11.6628C4.525 10.3198 5.00937 9.22212 5.81146 8.36127C5.67083 8.05031 5.24896 6.7992 5.92083 5.10462C5.92083 5.10462 6.96771 4.77489 9.35833 6.36617C10.3583 6.09278 11.4208 5.95713 12.4833 5.95087C13.5458 5.95713 14.6083 6.09278 15.6083 6.36617C17.9833 4.77489 19.0302 5.10462 19.0302 5.10462C19.7021 6.7992 19.2802 8.05031 19.1552 8.36127C19.9521 9.22212 20.4365 10.3198 20.4365 11.6628C20.4365 16.3897 17.5146 17.43 14.7333 17.7326C15.1708 18.102 15.5771 18.8564 15.5771 20.0094C15.5771 21.656 15.5615 22.9791 15.5615 23.3788C15.5615 23.7012 15.7802 24.0862 16.4208 23.9631C21.4219 22.3478 25 17.7336 25 12.3045C25 5.50948 19.4031 0 12.5 0V0Z" fill="currentColor"/>
+            </svg>
+            </a></li>
+          <li class="footer-section__item"><a class="footer-section__item-link" href="#">
+            <svg width="24" height="20" viewBox="0 0 24 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 2.55699C23.117 2.94899 22.168 3.21299 21.172 3.33199C22.189 2.72299 22.97 1.75799 23.337 0.607986C22.386 1.17199 21.332 1.58199 20.21 1.80299C19.313 0.845986 18.032 0.247986 16.616 0.247986C13.437 0.247986 11.101 3.21399 11.819 6.29299C7.728 6.08799 4.1 4.12799 1.671 1.14899C0.381 3.36199 1.002 6.25699 3.194 7.72299C2.388 7.69699 1.628 7.47599 0.965 7.10699C0.911 9.38799 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10599C22.505 4.41099 23.34 3.54399 24 2.55699Z" fill="currentColor"/>
+              </svg>
+              </a></li>
+          <li class="footer-section__item"><a class="footer-section__item-link" href="#">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.4 0H21.6C22.92 0 24 1.08 24 2.4V21.6C24 22.92 22.92 24 21.6 24H2.4C1.08 24 0 22.92 0 21.6V2.4C0 1.08 1.08 0 2.4 0ZM3.6 20.4H7.2V9.6H3.6V20.4ZM5.4 7.56C4.2 7.56 3.24 6.6 3.24 5.4C3.24 4.2 4.2 3.24 5.4 3.24C6.6 3.24 7.56 4.2 7.56 5.4C7.56 6.6 6.6 7.56 5.4 7.56ZM16.8 20.4H20.4V13.56C20.4 11.28 18.48 9.36 16.2 9.36C15.12 9.36 13.8 10.08 13.2 11.04V9.6H9.6V20.4H13.2V14.04C13.2 13.08 14.04 12.24 15 12.24C15.96 12.24 16.8 13.08 16.8 14.04V20.4Z" fill="currentColor"/>
+              </svg>
+              </a></li>
+        </ul>
+      </article>
+    </section>
+  </footer>
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
